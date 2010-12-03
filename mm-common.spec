@@ -1,6 +1,6 @@
 %define name mm-common
 %define version 0.9.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Build infrastructure and utilities for GNOME C++ bindings
 Name: %{name}
