@@ -1,6 +1,6 @@
 %define name mm-common
-%define version 0.9.2
-%define release %mkrel 2
+%define version 0.9.4
+%define release %mkrel 1
 
 Summary: Build infrastructure and utilities for GNOME C++ bindings
 Name: %{name}
@@ -42,5 +42,5 @@ rm -rf %{buildroot}
 %_bindir/mm-common-prepare
 %_datadir/aclocal/*.m4
 %_datadir/%name
-%_datadir/pkgconfig/mm-common-libstdc++.pc
+%_datadir/pkgconfig/*.pc
 %_mandir/man1/*.1*
