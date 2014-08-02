@@ -2,12 +2,13 @@
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	0.9.5
-Release:	8
+Version:	0.9.6
+Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
 Url:		http://www.gtkmm.org/
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{url_ver}/mm-common/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.acc.umu.se/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Source1:	%{name}.rpmlintrc
 BuildArch:	noarch
 BuildRequires:	curl
 BuildRequires:	wget
@@ -36,4 +37,3 @@ building tarball releases, unless configured to use maintainer-mode.
 %{_datadir}/%{name}
 %{_datadir}/pkgconfig/*.pc
 %{_mandir}/man1/*.1*
-
