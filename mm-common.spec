@@ -1,9 +1,10 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
+%define _disable_rebuild_configure 1
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	0.9.7
-Release:	4
+Version:	0.9.8
+Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
 Url:		http://www.gtkmm.org/
@@ -24,7 +25,7 @@ building tarball releases, unless configured to use maintainer-mode.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
