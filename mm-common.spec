@@ -3,7 +3,7 @@
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	0.9.8
+Version:	0.9.12
 Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
@@ -33,6 +33,7 @@ building tarball releases, unless configured to use maintainer-mode.
 
 %files
 %doc README NEWS ChangeLog AUTHORS
+%doc %{_docdir}/mm-common
 %{_bindir}/mm-common-prepare
 %{_datadir}/aclocal/*.m4
 %{_datadir}/%{name}

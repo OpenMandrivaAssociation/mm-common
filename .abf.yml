@@ -1,5 +1,2 @@
-removed_sources:
-  mm-common-0.9.6.tar.xz: ed65f1cf40871a6868ef862e556747dbc25811f5
-  mm-common-0.9.7.tar.xz: 693f30fdc92c9dbdf915d41409e30cd56b050ae2
 sources:
-  mm-common-0.9.8.tar.xz: 56cbbfd722a5ae109491c43fae46562e8ee038e1
+  mm-common-0.9.12.tar.xz: 7d06581f85921436214dbd93e86308920192854d
