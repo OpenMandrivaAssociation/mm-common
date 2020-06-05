@@ -3,8 +3,8 @@
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	0.9.12
-Release:	3
+Version:	1.0.1
+Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
 Url:		http://www.gtkmm.org/
@@ -12,7 +12,10 @@ Source0:	http://ftp.acc.umu.se/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{ve
 Source1:	%{name}.rpmlintrc
 BuildArch:	noarch
 BuildRequires:	curl
+BuildRequires:  doxygen
+BuildRequires:  meson
 BuildRequires:	wget
+BuildRequires:  pkgconfig(python)
 
 %description
 The mm-common module provides the build infrastructure and utilities
@@ -25,11 +28,11 @@ building tarball releases, unless configured to use maintainer-mode.
 %setup -q
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %files
 %doc README NEWS ChangeLog AUTHORS
