@@ -3,8 +3,8 @@
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	1.0.1
-Release:	2
+Version:	1.0.2
+Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
 Url:		http://www.gtkmm.org/
