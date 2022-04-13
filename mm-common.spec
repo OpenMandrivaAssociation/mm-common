@@ -4,7 +4,7 @@
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
 Version:	1.0.4
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
 Url:		http://www.gtkmm.org/
@@ -35,7 +35,7 @@ building tarball releases, unless configured to use maintainer-mode.
 %meson_install
 
 %files
-%doc README NEWS ChangeLog AUTHORS
+%doc NEWS ChangeLog AUTHORS
 %doc %{_docdir}/mm-common
 %{_bindir}/mm-common-prepare
 %{_bindir}/mm-common-get
