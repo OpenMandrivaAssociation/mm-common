@@ -36,7 +36,7 @@ building tarball releases, unless configured to use maintainer-mode.
 
 %files
 %doc README* NEWS ChangeLog AUTHORS
-#doc %{_docdir}/mm-common
+%doc %{_datadir}/doc/mm-common/skeletonmm.tar.xz
 %{_bindir}/mm-common-prepare
 %{_bindir}/mm-common-get
 %{_datadir}/aclocal/*.m4
