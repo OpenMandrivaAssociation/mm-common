@@ -35,7 +35,7 @@ building tarball releases, unless configured to use maintainer-mode.
 %meson_install
 
 %files
-%doc README* NEWS ChangeLog AUTHORS
+%doc README* NEWS ChangeLog
 %doc %{_datadir}/doc/mm-common/OVERVIEW.md
 %doc %{_datadir}/doc/mm-common/skeletonmm.tar.xz
 %{_bindir}/mm-common-prepare
