@@ -3,12 +3,12 @@
 
 Summary:	Build infrastructure and utilities for GNOME C++ bindings
 Name:		mm-common
-Version:	1.0.5
-Release:	4
+Version:	1.0.6
+Release:	1
 License:	GPLv2+
 Group:		Development/GNOME and GTK+
-Url:		http://www.gtkmm.org/
-Source0:	http://ftp.acc.umu.se/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Url:		https://www.gtkmm.org/
+Source0:	https://ftp.acc.umu.se/pub/GNOME/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
 Source1:	%{name}.rpmlintrc
 BuildArch:	noarch
 BuildRequires:	curl
